@@ -6,7 +6,7 @@
 /*   By: alisharu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 16:10:19 by jede-ara          #+#    #+#             */
-/*   Updated: 2025/11/22 21:06:27 by alisharu         ###   ########.fr       */
+/*   Updated: 2025/11/22 21:22:23 by alisharu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,11 +40,6 @@ void	ft_ptr(uintptr_t ptr)
 			ft_putchar(ptr - 10 + 'a');
 	}
 }
-
-/*
-	DESCRIÇÃO:  print_pointer() o argumento do ponteiro deve ser impresso
-	no formato hexadecimal.
-*/
 
 int	ft_print_pointer(unsigned long long ptr)
 {

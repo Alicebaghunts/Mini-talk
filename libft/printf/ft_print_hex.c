@@ -6,16 +6,11 @@
 /*   By: alisharu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 16:06:07 by jede-ara          #+#    #+#             */
-/*   Updated: 2025/11/22 21:06:24 by alisharu         ###   ########.fr       */
+/*   Updated: 2025/11/22 21:22:15 by alisharu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-
-/*
-	DESCRIÇÃO: print_hex() imprime um número em formato hexadecimal em minúsculas
-	e maiúsculas.
-*/
 
 int	ft_print_hex(unsigned int n, int c)
 {

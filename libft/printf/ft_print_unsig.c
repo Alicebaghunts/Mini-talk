@@ -6,7 +6,7 @@
 /*   By: alisharu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 16:08:18 by jede-ara          #+#    #+#             */
-/*   Updated: 2025/11/22 21:06:30 by alisharu         ###   ########.fr       */
+/*   Updated: 2025/11/22 21:22:29 by alisharu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,10 +24,6 @@ static unsigned	int	unsig_number(unsigned int n)
 	}
 	return (i);
 }
-
-/*
-	DESCRIÇÃO: print_unsig() imprime um número decimal sem sinal.
-*/
 
 int	ft_print_unsig(unsigned int n, int fd)
 {
